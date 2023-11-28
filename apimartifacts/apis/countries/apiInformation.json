@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "displayName": "Countries",
+    "isCurrent": true,
+    "path": "countries",
+    "protocols": [
+      "http",
+      "https"
+    ],
+    "serviceUrl": "https://countries.trevorblades.com/graphql",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true,
+    "type": "graphql"
+  }
+}

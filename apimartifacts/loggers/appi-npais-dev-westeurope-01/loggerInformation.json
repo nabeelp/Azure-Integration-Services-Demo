@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--6565f562217d200f3c92eb72}}"
+    },
+    "isBuffered": true,
+    "loggerType": "applicationInsights",
+    "resourceId": "/subscriptions/01e3489e-80b2-4acf-b7df-142c3479d8aa/resourceGroups/rg-npais-dev/providers/microsoft.insights/components/appi-npais-dev-westeurope-01"
+  }
+}
