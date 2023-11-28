@@ -2,7 +2,7 @@
   "properties": {
     "displayName": "mysecretvalue",
     "keyVault": {
-      "secretIdentifier": "https://secretvaultwk.vault.azure.net/secrets/mysecretvalue"
+      "secretIdentifier": "https://kvnpaisdevwecz6nsbre4d6.vault.azure.net/secrets/mysecretvalue"
     },
     "secret": true,
     "tags": []
