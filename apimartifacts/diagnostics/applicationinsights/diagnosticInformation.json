@@ -27,7 +27,7 @@
     },
     "httpCorrelationProtocol": "Legacy",
     "logClientIp": true,
-    "loggerId": "/subscriptions/01e3489e-80b2-4acf-b7df-142c3479d8aa/resourceGroups/rg-npais-dev/providers/Microsoft.ApiManagement/service/apim-npais-dev-westeurope-01/loggers/appi-npais-dev-westeurope-01",
+    "loggerId": "/subscriptions/01e3489e-80b2-4acf-b7df-142c3479d8aa/resourceGroups/rg-npais-dev/providers/Microsoft.ApiManagement/service/apim-npais-dev-westeurope-01/loggers/appinsights",
     "sampling": {
       "percentage": 100,
       "samplingType": "Fixed"
