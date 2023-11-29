@@ -1,0 +1,21 @@
+apimServiceName: [prod or any other target environment apim instance name goes here]
+namedValues:
+  - name: environment
+    properties:
+      displayName: environment
+      value: "https://www.search2.com"
+  - name: mysecretvalue
+    properties:
+      displayName: mysecretvalue
+      keyVault:
+        secretIdentifier: "https://kvaisproduqagwditfqrzo.vault.azure.net/secrets/mysecretvalue"
+loggers:
+    - name: appinsights
+      properties:
+        loggerType: applicationInsights
+        resourceId: "/subscriptions/01e3489e-80b2-4acf-b7df-142c3479d8aa/resourceGroups/rg-npais-prod/providers/microsoft.insights/components/appi-ais-prod-westeurope-01"
+diagnostics:
+   - name: applicationinsights
+     properties:
+       verbosity: Error
+       loggerId: "/subscriptions/01e3489e-80b2-4acf-b7df-142c3479d8aa/resourceGroups/rg-npais-prod/providers/Microsoft.ApiManagement/service/apim-ais-prod-westeurope-01/loggers/appinsights"
