@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "This DataFlex Web Service opens up country information. 2 letter ISO codes are used for Country code. There are functions to retrieve the used Currency, Language, Capital City, Continent and Telephone code.",
+    "displayName": "CountryInfoService (REST to SOAP)",
+    "isCurrent": true,
+    "path": "soap-countries",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "http://www.oorsprong.org",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

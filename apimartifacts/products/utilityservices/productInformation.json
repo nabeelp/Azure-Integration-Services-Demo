@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": false,
+    "description": "Utility APIs that all customer can use",
+    "displayName": "UtilityServices",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}

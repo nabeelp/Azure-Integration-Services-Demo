@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "approvalRequired": true,
+    "description": "Premium Services for registered users",
+    "displayName": "PremiumServices",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}
