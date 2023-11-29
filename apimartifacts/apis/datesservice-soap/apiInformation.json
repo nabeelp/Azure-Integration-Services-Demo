@@ -2,7 +2,6 @@
   "properties": {
     "apiRevision": "1",
     "authenticationSettings": {},
-    "description": "DataFlex Web Service for All kind of Date Features",
     "displayName": "DatesService",
     "isCurrent": true,
     "path": "datesservice-soap",
